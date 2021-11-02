@@ -1,0 +1,33 @@
+{
+  "name": "mattwoodco",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "yarn build && next export",
+    "update": "npx taze major -r -w && yarn",
+    "nuke": "rimraf node_modules .next out yarn.lock && yarn",
+    "reset": "rm -rf .git && git init --quiet && git remote add origin https://github.com/mattwoodco/mattwoodco && git co -b main && git add . && git c init && git pu --force"
+  },
+  "dependencies": {
+    "@radix-ui/react-id": "^0.1.1",
+    "@stitches/react": "^1.2.5",
+    "gray-matter": "^4.0.3",
+    "next": "latest",
+    "next-connect": "^0.11.0",
+    "next-mdx-remote": "^3.0.7",
+    "next-themes": "^0.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "eslint": "^8.1.0",
+    "eslint-config-next": "^12.0.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.4"
+  }
+}
