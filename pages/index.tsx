@@ -54,7 +54,7 @@ const Home: NextPage = () => {
             interfaces using server specification documents
           </p>
           <p>
-            <Link href="https://calendly.com/mattwoodco/30min" passHref>
+            <Link href="https://savvycal.com/amplestream/matt" passHref>
               <StyledLink> Schedule a demo</StyledLink>
             </Link>
           </p>
